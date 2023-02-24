@@ -36,9 +36,8 @@ class LoginController {
                     var token = jwt.sign({
                         _id: data._id
                     },'mk')
-                    res.json({ 
-                        mess: 'LOGIN OK',
-                        token : token})
+                    res.cookie('authToken', token, { httpOnly: true, maxAge: 300000 }); // expires after 5 minutes
+                    res.send('Login successful !! Welcome to Dashboard');
                 }else{
                     res.json('LOGIN FAIL !!!')
                 }
