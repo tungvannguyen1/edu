@@ -1,130 +1,135 @@
 <!-- BEGIN # MODAL LOGIN -->
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Begin # DIV Form -->
-                    <div id="div-forms">
-                        <form id="login-form">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span class="flaticon-add" aria-hidden="true"></span>
-                            </button>
-                            <div class="modal-body">
-                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
-                            </div>
-                        </form><!-- End # Login Form -->
-                    </div><!-- End # DIV Form -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Begin # DIV Form -->
+            <div id="div-forms">
+                <form id="login-form">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="flaticon-add" aria-hidden="true"></span>
+                    </button>
+                    <div class="modal-body">
+                        <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                    </div>
+                </form><!-- End # Login Form -->
+            </div><!-- End # DIV Form -->
+        </div>
+    </div>
+</div>
+<!-- END # MODAL LOGIN -->
+
+<header class="header">
+    <div class="topbar clearfix">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-md-6 col-sm-6 text-left">
+                    <p>
+                        <strong><i class="fa fa-phone"></i></strong> +90 543 123 45 67 &nbsp;&nbsp;
+                        <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:#">info@yoursite.com</a>
+                    </p>
+                </div><!-- end left -->
+                <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                    <div class="social">
+                        <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i
+                                class="fa fa-google-plus"></i></a>
+                        <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom"
+                            title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                    </div><!-- end social -->
+                </div><!-- end left -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end topbar -->
+
+    <div class="container">
+        <nav class="navbar navbar-default yamm">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo-normal">
+                    <a class="navbar-brand" href="/"><img src="images/logo-dark.png" alt=""></a>
                 </div>
             </div>
-        </div>
-        <!-- END # MODAL LOGIN -->
 
-        <header class="header">
-            <div class="topbar clearfix">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="col-md-6 col-sm-6 text-left">
-                            <p>
-                                <strong><i class="fa fa-phone"></i></strong> 0967954410 &nbsp;&nbsp;
-                                <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:#">ntung9174@gmail.com</a>
-                            </p>
-                        </div><!-- end left -->
-                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
-                            <div class="social">
-                                <a class="facebook" href="https://www.facebook.com/biin.nguyen.1466" data-tooltip="tooltip" data-placement="bottom" title="Facebook" ><i class="fa fa-facebook"></i></a>              
-                                <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
-                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                            </div><!-- end social -->
-                        </div><!-- end left -->
-                    </div><!-- end row -->
-                </div><!-- end container -->
-            </div><!-- end topbar -->
-
-            <div class="container">
-                <nav class="navbar navbar-default yamm">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="logo-normal">
-                            <a class="navbar-brand" href="/"><img src="images/logo-dark.png" alt=""></a>
-                        </div>
-                    </div>
-
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/">Trang chủ</a></li>
-                            <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown" class="dropdown-toggle active">Khóa Học<b class="fa fa-angle-down"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <div class="yamm-content clearfix">
-                                            <div class="row-fluid">
-                                                <div class="">
-                                                    {{!-- <h4>Khoá Học</h4> --}}
-                                                    <ul>
-                                                        <li><a href="https://fullstack.edu.vn/learning/lessons-for-newbie?id=c5d222e4-7a41-4bfa-8a4f-dda9ff844033">Kiến Thức Nhập Môn IT</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/lap-trinh-c-co-ban-toi-nang-cao?id=2a350dc5-e1dc-485c-8da7-d88824b5fd66">Lập trình C++ cơ bản, nâng cao</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/html-css?id=ded5f535-9c44-4060-9fc3-5602b9706fcc">HTML CSS từ Zero đến Hero</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/responsive-web-design?id=c36710ad-e0ec-4827-a248-b58c4f006ec6">Responsive Với Grid System</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/javascript-co-ban?id=b9ee11bd-0be1-457b-9d29-10b35b618389">Lập Trình JavaScript Cơ Bản</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/javascript-nang-cao?id=11909e23-09bf-48af-9718-7b474d8c343b">Lập Trình JavaScript Nâng Cao</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/windows-terminal-wsl?id=a36f3da9-4555-4b74-b779-665d07102e23">Làm việc với Terminal & Ubuntu</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/reactjs?id=4443aa3d-8a90-4891-b574-797e5c70debe">Xây Dựng Website với ReactJS</a></li>
-                                                        <li><a href="https://fullstack.edu.vn/learning/nodejs?id=4b5a2766-dbd7-470b-83e8-c84f4a37d550">Node & ExpressJS</a></li>
-                                                        
-                                                        {{!-- <li><a href="#">Courses Name 05</a></li>
-                                                        <li><a href="#">Courses Name 06</a></li>
-                                                        <li><a href="#">Courses Name 07</a></li>
-                                                        <li><a href="#">Courses Name 08</a></li>
-                                                        <li><a href="#">Courses Name 09</a></li> --}}
-                                                    </ul>
-                                                </div>
-                                                {{!-- <div class="col-md-6 col-sm-6">
-                                                    <div class="menu-widget text-center">
-                                                        <div class="image-wrap entry">
-                                                            <img src="upload/course_01.jpg" alt="" class="img-responsive">
-                                                            <div class="magnifier">
-                                                                 <a href="#" title=""><i class="flaticon-add"></i></a>
-                                                            </div>
-                                                        </div><!-- end image-wrap -->
-                                                        <h5><a href="#">Learning Bootstrap Framework</a></h5>
-                                                        <small>$22.00</small>
-                                                        <a href="#" class="menu-button">View Course</a>
-                                                    </div><!-- end widget -->
-                                                </div> --}}
-                                            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Trang chủ</a></li>
+                    <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown"
+                            class="dropdown-toggle active">Khóa Học<b class="fa fa-angle-down"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content clearfix">
+                                    <div class="row-fluid">
+                                        <div class="">
+                                            {{!-- <h4>Khoá Học</h4> --}}
+                                            <ul>
+                                                <li><a href="#">Python</a></li>
+                                                <li><a href="#">C++</a></li>
+                                                <li><a href="#">JavaScript</a></li>
+                                                <li><a href="#">........</a></li>
+                                                {{!-- <li><a href="#">Courses Name 05</a></li>
+                                                <li><a href="#">Courses Name 06</a></li>
+                                                <li><a href="#">Courses Name 07</a></li>
+                                                <li><a href="#">Courses Name 08</a></li>
+                                                <li><a href="#">Courses Name 09</a></li> --}}
+                                            </ul>
                                         </div>
-                                    </li>
-                                </ul>
+                                        {{!-- <div class="col-md-6 col-sm-6">
+                                            <div class="menu-widget text-center">
+                                                <div class="image-wrap entry">
+                                                    <img src="upload/course_01.jpg" alt="" class="img-responsive">
+                                                    <div class="magnifier">
+                                                        <a href="#" title=""><i class="flaticon-add"></i></a>
+                                                    </div>
+                                                </div><!-- end image-wrap -->
+                                                <h5><a href="#">Learning Bootstrap Framework</a></h5>
+                                                <small>$22.00</small>
+                                                <a href="#" class="menu-button">View Course</a>
+                                            </div><!-- end widget -->
+                                        </div> --}}
+                                    </div>
+                                </div>
                             </li>
-                            <li><a href="/news">Tin Tức</a></li>
-                            {{!-- <li class="dropdown hassubmenu">
-                                <a href="/shop" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shop <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="/shop">Shop Layout</a></li>
-                                    <li><a href="/shop">Shop Single</a></li>
-                                </ul>
-                            </li> --}}
-                            {{!-- <li class="dropdown hassubmenu">
-                                <a href="/blog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="/blog-1">Blog Right Sidebar</a></li>
-                                    <li><a href="/blog-2">Blog Left Sidebar</a></li>
-                                    <li><a href="/blog-3">Blog Grid Sidebar</a></li>
-                                    <li><a href="/blog-5">Blog Grid Fullwidth</a></li>
-                                    <li><a href="/blog-6">Blog Single</a></li>
-                                </ul>
-                            </li> --}}
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="/login">Đăng Nhập</a></li>
-                            <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
-                            {{!-- <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> --}}
                         </ul>
-                    </div>
-                </nav><!-- end navbar -->
-            </div><!-- end container -->
-        </header>
+                    </li>
+                    <li><a href="/news">Tin Tức</a></li>
+                    {{!-- <li class="dropdown hassubmenu">
+                        <a href="/shop" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Shop <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/shop">Shop Layout</a></li>
+                            <li><a href="/shop">Shop Single</a></li>
+                        </ul>
+                    </li> --}}
+                    {{!-- <li class="dropdown hassubmenu">
+                        <a href="/blog" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/blog-1">Blog Right Sidebar</a></li>
+                            <li><a href="/blog-2">Blog Left Sidebar</a></li>
+                            <li><a href="/blog-3">Blog Grid Sidebar</a></li>
+                            <li><a href="/blog-5">Blog Grid Fullwidth</a></li>
+                            <li><a href="/blog-6">Blog Single</a></li>
+                        </ul>
+                    </li> --}}
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/login">Đăng Nhập</a></li>
+                    <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i
+                                class="fa fa-search"></i></a></li>
+                    {{!-- <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i
+                                class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> --}}
+                </ul>
+            </div>
+        </nav><!-- end navbar -->
+    </div><!-- end container -->
+</header>

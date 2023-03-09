@@ -10,3 +10,15 @@ git push -u origin main
 git remote add origin https://github.com/Lavi-Vu/edu.git
 git branch -M main
 git push -u origin main
+
+//populate 
+    //   account.findOne({
+    //     firstName: 'Nguyen'
+    // })
+    // .populate('list_course.course')
+    // .then(data=>{
+    //     console.log(data)
+    // })
+    // .catch(err=>{
+    //     console.log(err)
+    // })
