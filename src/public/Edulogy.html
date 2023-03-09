@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html class="js video audio mdl-js" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Basic -->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Edulogy</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="http://localhost:3000/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="http://localhost:3000/images/apple-touch-icon.png">
+
+	<!-- Google Fonts -->
+    <link href="./Edulogy_files/css" rel="stylesheet"> 
+    <link href="./Edulogy_files/css(1)" rel="stylesheet"> 
+	
+    <!-- Custom & Default Styles -->
+	<link rel="stylesheet" href="./Edulogy_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Edulogy_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Edulogy_files/carousel.css">
+    <link rel="stylesheet" href="./Edulogy_files/animate.css">
+    <link rel="stylesheet" href="./Edulogy_files/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+	<![endif]-->
+
+<style type="text/css" data-styled-components="FiaaB gTcftA caPIRE" data-styled-components-is-local="true">
+/* sc-component-id: sc-keyframes-FiaaB */
+@-webkit-keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes FiaaB{100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}
+/* sc-component-id: sc-keyframes-gTcftA */
+@-webkit-keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}@keyframes gTcftA{10%,90%{-webkit-transform:translate3d(-1px,0,0);-ms-transform:translate3d(-1px,0,0);transform:translate3d(-1px,0,0);}20%,80%{-webkit-transform:translate3d(2px,0,0);-ms-transform:translate3d(2px,0,0);transform:translate3d(2px,0,0);}30%,50%,70%{-webkit-transform:translate3d(-4px,0,0);-ms-transform:translate3d(-4px,0,0);transform:translate3d(-4px,0,0);}40%,60%{-webkit-transform:translate3d(4px,0,0);-ms-transform:translate3d(4px,0,0);transform:translate3d(4px,0,0);}}
+/* sc-component-id: sc-keyframes-caPIRE */
+@-webkit-keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}@keyframes caPIRE{0%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}20%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}40%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}60%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}80%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}100%{-webkit-transform:scale(.75);-ms-transform:scale(.75);transform:scale(.75);}}</style><style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:1.25em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style>
+      .ejoy-sub-active{
+        color: #1296ba !important;
+      }
+      
+      .ejoy-sub-hovered{
+        color: #1296ba !important;
+      }
+      .ejoy-sub-clzz{
+        cursor: pointer;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+      .ejoy-sub-clzz:hover{
+        color: #1296ba !important;
+      }
+      .ej-trans-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999999;
+        cursor: move;
+      }
+      .ej-trans-sub > span{
+        color: #3CF9ED;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 16px;
+        line-height: 1.5;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 0 8px;
+        
+        lineHeight: 1.2;
+        font-size: 16px;
+        color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+      
+      }
+      .ej-main-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999;
+        cursor: move;
+        padding: 0 8px;
+      }
+      .ej-main-sub > span{
+        color: white;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 2px 8px;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+
+      .ej-main-sub .ejoy-sub-clzz{
+        background: transparent !important
+      }
+
+      .tran-subtitle > span{
+        cursor: pointer;
+        padding-left: 10px;
+        top: 2px;
+        position: relative;
+      }
+
+      .tran-subtitle > span > span{
+        position: absolute;
+        top: -170%;
+        background: rgba(0,0,0,0.5);
+        font-size: 13px;
+        line-height: 20px;
+        padding: 2px 8px;
+        color: white;
+        display: none;
+        border-radius: 4px;
+        white-space: nowrap;
+        left: -50%;
+        font-weight: normal;
+      }
+
+      .view-icon-copy-main-sub:hover > span, .view-icon-edit-sub:hover > span, .view-icon-copy-tran-sub:hover > span {
+        display: block;
+      }
+
+      .tran-subtitle > span > svg{
+        width: 16px;
+        height: 16px;
+        pointer-events: none;
+        display: inline-flex !important;
+        vertical-align: baseline !important;
+      }
+      
+      .view-icon-copy-main-sub > svg{
+        pointer-events: none;
+        color: #FFCC00
+      }
+
+      .view-icon-copy-tran-sub{
+        padding-left: 0 !important;
+        padding-right: 8px !important;
+      }
+      .view-icon-copy-tran-sub > svg{
+        pointer-events: none;
+        color: #0CB1C7
+      }
+
+
+      </style></head>
+<body>  
+    <div id="preloader" style="display: none;">
+        <img class="preloader" src="./Edulogy_files/loader.gif" alt="" style="display: none;">
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    <div id="wrapper">
+    <!-- BEGIN # MODAL LOGIN -->
+            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- Begin # DIV Form -->
+                        <div id="div-forms">
+                            <form id="login-form">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span class="flaticon-add" aria-hidden="true"></span>
+                                </button>
+                                <div class="modal-body">
+                                    <input class="form-control" type="text" placeholder="What you are looking for?" required="">
+                                </div>
+                            </form><!-- End # Login Form -->
+                        </div><!-- End # DIV Form -->
+                    </div>
+                </div>
+            </div>
+            <!-- END # MODAL LOGIN -->
+    
+            <header class="header affix">
+                <div class="topbar clearfix">
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="col-md-6 col-sm-6 text-left">
+                                <p>
+                                    <strong><i class="fa fa-phone"></i></strong> 0967954410 &nbsp;&nbsp;
+                                    <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:#">ntung9174@gmail.com</a>
+                                </p>
+                            </div><!-- end left -->
+                            <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                                <div class="social">
+                                    <a class="facebook" href="https://www.facebook.com/biin.nguyen.1466" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                    <a class="twitter" href="http://localhost:3000/#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a class="google" href="http://localhost:3000/#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                    <a class="linkedin" href="http://localhost:3000/#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a class="pinterest" href="http://localhost:3000/#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                                </div><!-- end social -->
+                            </div><!-- end left -->
+                        </div><!-- end row -->
+                    </div><!-- end container -->
+                </div><!-- end topbar -->
+    
+                <div class="container">
+                    <nav class="navbar navbar-default yamm">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="logo-normal">
+                                <a class="navbar-brand" href="http://localhost:3000/"><img src="./Edulogy_files/logo-dark.png" alt=""></a>
+                            </div>
+                        </div>
+    
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="http://localhost:3000/">Trang chủ</a></li>
+                                <li class="dropdown yamm-fw yamm-half"><a href="http://localhost:3000/#" data-toggle="dropdown" class="dropdown-toggle active">Khóa Học<b class="fa fa-angle-down"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="yamm-content clearfix">
+                                                <div class="row-fluid">
+                                                    <div class="">
+                                                        <ul>
+                                                            <li><a href="https://fullstack.edu.vn/learning/lessons-for-newbie?id=c5d222e4-7a41-4bfa-8a4f-dda9ff844033">Kiến Thức Nhập Môn IT</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/lap-trinh-c-co-ban-toi-nang-cao?id=2a350dc5-e1dc-485c-8da7-d88824b5fd66">Lập trình C++ cơ bản, nâng cao</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/html-css?id=ded5f535-9c44-4060-9fc3-5602b9706fcc">HTML CSS từ Zero đến Hero</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/responsive-web-design?id=c36710ad-e0ec-4827-a248-b58c4f006ec6">Responsive Với Grid System</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/javascript-co-ban?id=b9ee11bd-0be1-457b-9d29-10b35b618389">Lập Trình JavaScript Cơ Bản</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/javascript-nang-cao?id=11909e23-09bf-48af-9718-7b474d8c343b">Lập Trình JavaScript Nâng Cao</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/windows-terminal-wsl?id=a36f3da9-4555-4b74-b779-665d07102e23">Làm việc với Terminal &amp; Ubuntu</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/reactjs?id=4443aa3d-8a90-4891-b574-797e5c70debe">Xây Dựng Website với ReactJS</a></li>
+                                                            <li><a href="https://fullstack.edu.vn/learning/nodejs?id=4b5a2766-dbd7-470b-83e8-c84f4a37d550">Node &amp; ExpressJS</a></li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://localhost:3000/news">Tin Tức</a></li>
+                                <li><a href="http://localhost:3000/contact">Contact</a></li>
+                                <li><a href="http://localhost:3000/login">Đăng Nhập</a></li>
+                                <li class="iconitem"><a href="http://localhost:3000/#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- end navbar -->
+                </div><!-- end container -->
+            </header>
+    <section id="home" class="video-section js-height-full" style="height: 746px;">
+            <div class="overlay"></div>
+            <div class="home-text-wrapper relative container">
+                <div class="home-message">
+                    <p>Learning Management System </p>
+                    <small>Trở thành công ty công nghệ giáo dục có vị thế vững vàng trên thị trường, với các sản phẩm hỗ trợ học lập trình chất lượng, thông minh và hiệu quả. F8 sẽ nổi tiếng bởi chất lượng sản phẩm vượt trội và được cộng đồng tin tưởng chứ không phải vì tiếp thị tốt.</small>
+                    <div class="btn-wrapper">
+                        <div class="text-center">
+                            <a href="http://localhost:3000/#" class="btn btn-primary wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Học ngay</a> &nbsp;&nbsp;&nbsp;<a href="http://localhost:3000/#" class="btn btn-default wow slideInRight" style="visibility: visible; animation-name: slideInRight;">Liên hệ</a>
+                        </div>
+                    </div><!-- end row -->
+                </div>
+            </div>
+            <div class="slider-bottom">
+                <span>Explore <i class="fa fa-angle-down"></i></span>
+            </div>
+        <div id="video_background_video_0" style="z-index: -1; position: absolute; inset: 0px; overflow: hidden;"><video width="1519" height="855" autoplay="" loop="" onended="this.play()" style="position: absolute; top: -54px; left: 0px;"><source src="upload/preview.mp4" type="video/mp4"><source src="upload/preview.webm" type="video/webm"><source src="upload/preview.ogg" type="video/ogg"></video></div></section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="custom-module">
+                            <img src="./Edulogy_files/device_01.png" alt="" class="img-responsive wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                        </div><!-- end module -->
+                    </div><!-- end col -->
+                    <div class="col-md-8">
+                        <div class="custom-module p40l">
+                            <h2>Học Lập Trình Để Đi Làm</h2>
+
+                            <p>F8 mong muốn trở thành một tổ chức góp phần tạo nên sự thay đổi đó, và việc tạo ra cộng đồng học lập trình mới chỉ là điểm bắt đầu. Chúng tôi đang nỗ lực tạo ra các khóa học có nội dung chất lượng vượt trội, giúp học viên sau khi hoàn thành khóa học có thể trở thành những lập trình viên luôn được nhiều công ty săn đón.</p>
+
+                            <hr class="invis">
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 first">
+                                    <ul class="check">
+                                        <li>Kiến Thức Nhập Môn IT</li>
+                                        <li>Lập trình C++ cơ bản, nâng cao</li>
+                                        <li>HTML CSS từ Zero đến Hero</li>
+                                        <li>Responsive Với Grid System</li>
+                                        <li>Lập Trình JavaScript Cơ Bản</li>
+                                    </ul><!-- end check -->
+                                </div><!-- end col-lg-4 -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <ul class="check">
+                                        <li>Lập Trình JavaScript Nâng Cao</li>
+                                        <li>Pre-Defined Colors</li>
+                                        <li>Làm việc với Terminal &amp; Ubuntu</li>
+                                        <li>Xây Dựng Website với ReactJS</li>
+                                        <li>Node &amp; ExpressJS</li>
+                                    </ul><!-- end check -->    
+                                </div><!-- end col-lg-4 -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 last">
+                                    <ul class="check">
+                                        <li>HTML CSS Pro</li>
+                                        <li>JavaScript Pro</li>
+                                        <li>ReactJS Pro</li>
+                                        <li>C++ Pro</li>
+                                        <li>C Pro</li>
+                                    </ul><!-- end check -->
+                                </div><!-- end col-lg-4 --> 
+                            </div><!-- end row -->   
+
+                            <hr class="invis">
+
+                            <div class="btn-wrapper">
+                                <a href="http://localhost:3000/#" class="btn btn-primary">Learn More About us</a>
+                            </div>
+
+                        </div><!-- end module -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Khóa Học Miễn Phí</h3>
+                    <p>1.688.886+ người khác đã học</p>
+                </div><!-- end title -->
+
+                <div id="owl-01" class="owl-carousel owl-theme owl-theme-01 owl-loaded owl-drag">
+                    <!-- end col -->
+
+                    <!-- end col -->
+
+                    <!-- end col -->
+
+                    <!-- end col -->
+
+                    <!-- end col -->
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1155px, 0px, 0px); transition: all 0s ease 0s; width: 3754px;"><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_02.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Design</small>
+                                    <a href="http://localhost:3000/#" title="">Designing Game UI Assets in Adobe Illustrator</a>
+                                </h4>
+                                <p>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam. </p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 41</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 33 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$55.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_03.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Become a Web Developer: Learn PHP</a>
+                                </h4>
+                                <p>Donec auctor nec nibh sit amet pulvinar. Mauris nulla elit, lacinia ac facilisis mattis.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 1 Hrs.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_04.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Build a Custom Theme for Drupal 8</a>
+                                </h4>
+                                <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 45 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_01.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Javascript</small>
+                                    <a href="http://localhost:3000/#" title="">Modern JavaScript Linting With ESLint</a>
+                                </h4>
+                                <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$22.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item active" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/images" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Javascript</small>
+                                    <a href="http://localhost:3000/#" title="">Modern JavaScript Linting With ESLint</a>
+                                </h4>
+                                <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$22.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item active" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_02.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Design</small>
+                                    <a href="http://localhost:3000/#" title="">Designing Game UI Assets in Adobe Illustrator</a>
+                                </h4>
+                                <p>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam. </p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 41</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 33 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$55.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item active" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_03.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Become a Web Developer: Learn PHP</a>
+                                </h4>
+                                <p>Donec auctor nec nibh sit amet pulvinar. Mauris nulla elit, lacinia ac facilisis mattis.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 1 Hrs.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item active" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_04.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Build a Custom Theme for Drupal 8</a>
+                                </h4>
+                                <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 45 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_01.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Javascript</small>
+                                    <a href="http://localhost:3000/#" title="">Modern JavaScript Linting With ESLint</a>
+                                </h4>
+                                <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$22.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/images" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Javascript</small>
+                                    <a href="http://localhost:3000/#" title="">Modern JavaScript Linting With ESLint</a>
+                                </h4>
+                                <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$22.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_02.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Design</small>
+                                    <a href="http://localhost:3000/#" title="">Designing Game UI Assets in Adobe Illustrator</a>
+                                </h4>
+                                <p>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam. </p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 41</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 33 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$55.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_03.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Become a Web Developer: Learn PHP</a>
+                                </h4>
+                                <p>Donec auctor nec nibh sit amet pulvinar. Mauris nulla elit, lacinia ac facilisis mattis.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 1 Hrs.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div><div class="owl-item cloned" style="width: 273.75px; margin-right: 15px;"><div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/course_04.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>PHP Coding</small>
+                                    <a href="http://localhost:3000/#" title="">How to Build a Custom Theme for Drupal 8</a>
+                                </h4>
+                                <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="http://localhost:3000/#"><i class="fa fa-clock-o"></i> 45 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="http://localhost:3000/#">$51.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div><!-- end row -->
+
+                <hr class="invis">
+
+                <div class="section-button text-center">
+                    <a href="http://localhost:3000/#" class="btn btn-primary">View All Courses</a>
+                </div>
+            </div><!-- end container -->
+        </section>
+
+        <section class="section db p120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tagline-message text-center">
+                            <h3>Howdy, we are Edulogy, we have brought together the best quality services, offers, projects for you!</h3>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end section -->
+
+        <section class="section gb nopadtop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box m30">
+                            <i class="flaticon-computer-tool-for-education"></i>
+                            <h4>Learning system</h4>
+                            <p>All sections required for online training are included to Edulogy.</p>
+                            <a href="http://localhost:3000/#" class="readmore">Read more</a>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-md-6">
+                        <div class="box m30">
+                            <i class="flaticon-monitor-tablet-and-smartohone"></i>
+                            <h4>Works all mobile devices</h4>
+                            <p>The most important feature of this template is that it is compatible with all mobile devices. Your customers can also visit your site easily from tablets and phones.</p>
+                            <a href="http://localhost:3000/#" class="readmore">Read more</a>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-md-3">
+                        <div class="box m30">
+                            <i class="flaticon-download-business-statistics-symbol-of-a-graphic"></i>
+                            <h4>User Dashboard</h4>
+                            <p>We designed the design of all the sub-pages needed for the users.</p>
+                            <a href="http://localhost:3000/#" class="readmore">Read more</a>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <hr class="invis">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <i class="flaticon-html5"></i> <i class="flaticon-css-3"></i>
+                            <h4>Compatible HTML5 &amp; CSS3</h4>
+                            <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
+                            <a href="http://localhost:3000/#" class="readmore">Read more</a>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-md-6">
+                        <div class="box">
+                            <i class="flaticon-html-coding"></i>
+                            <h4>Bootstrap Framework</h4>
+                            <p>Bootstrap is a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.</p>
+                            <a href="http://localhost:3000/#" class="readmore">Read more</a>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section db">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">1230</h4>
+                            <h3><i class="flaticon-black-graduation-cap-tool-of-university-student-for-head"></i> Happy Students</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">331</h4>
+                            <h3><i class="flaticon-online-course"></i> Course Done</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">1802</h4>
+                            <h3><i class="flaticon-coffee-cup"></i> Ordered Coffe's</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Testimonials</h3>
+                    <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box testimonial">
+                            <p class="testiname"><strong><img src="./Edulogy_files/testimonial_01.png" alt="" class="img-circle"> Jenny LUXURY</strong></p>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div><!-- end testimonial -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-4">
+                        <div class="box testimonial">
+                            <p class="testiname"><strong><img src="./Edulogy_files/testimonial_02.png" alt="" class="img-circle"> Martin LEO</strong></p>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                        </div><!-- end testimonial -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-4">
+                        <div class="box testimonial">
+                            <p class="testiname"><strong><img src="./Edulogy_files/testimonial_03.png" alt="" class="img-circle"> John DOE</strong></p>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div><!-- end testimonial -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Recent News</h3>
+                    <p>Tổng hợp các bài viết chia sẻ về kinh nghiệm tự học lập trình online và các kỹ thuật lập trình web.</p>
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/63f81cb512e5f.png" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="https://fullstack.edu.vn/blog/diem-danh-nhung-nganh-nghe-thu-nhap-cao-nhat-hien-nay.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="https://fullstack.edu.vn/blog/diem-danh-nhung-nganh-nghe-thu-nhap-cao-nhat-hien-nay.html">Điểm danh những ngành nghề có thu nhập cao nhất hiện nay</a></h4>
+                                <p>Bạn có bao giờ thắc mắc rằng không biết hiện nay ngành nghề nào có thu nhập cao nhất không? Cùng xem nhé! (Thông tin mang tính...</p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="http://localhost:3000/#">24 February 2023</a></li>
+                                    <li><a href="http://localhost:3000/#">by Tungthuhai</a></li>
+                                    <li><a href="http://localhost:3000/#">81 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/63f70f4b6a2f8.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="https://fullstack.edu.vn/blog/kham-pha-it-la-gi-nhung-vi-tri-dang-pho-bien-trong-nganh-it.html">Khám phá IT là gì? Những vị trí đang phổ biến trong ngành IT</a></h4>
+                                <p>Ai cũng biết IT là một ngành hot bởi nó có thể đem lại mức thu nhập rất “khủng”, tuy nhiên vẫn còn nhiều người chưa rõ IT là gì và... </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="http://localhost:3000/#">20 February 2023</a></li>
+                                    <li><a href="http://localhost:3000/#">by NguyenVu</a></li>
+                                    <li><a href="http://localhost:3000/#">11 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="./Edulogy_files/63f57e237dd2b.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="http://localhost:3000/blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="https://fullstack.edu.vn/blog/fullstack-la-gi-can-ky-nang-gi-de-tro-thanh-fullstack-developer.html">Fullstack là gì? Cần Những kỹ năng gì để trở thành fullstack devoloper?</a></h4>
+                                <p>Chắc hẳn hầu hết các bạn trong giới lập trình đều đã ít nhất một lần nghe đến từ “fullstack”. Tuy nhiên vẫn còn nhiều người hiểu... </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="http://localhost:3000/#">18 March 2023</a></li>
+                                    <li><a href="http://localhost:3000/#">by ThomasNguyen</a></li>
+                                    <li><a href="http://localhost:3000/#">88 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section bgcolor1">
+            <div class="container">
+                <a href="http://localhost:3000/#">
+                <div class="row callout">
+                    <div class="col-md-4 text-center">
+                        <h3><sup>$</sup>49.99</h3>
+                        <h4>Start your awesome course today!</h4>
+                    </div><!-- end col -->
+
+                    <div class="col-md-8">
+                        <p class="lead">Limited time offer! Your profile will be added to our "Students" directory as well. </p>
+                    </div>
+                </div><!-- end row -->
+                </a>
+            </div><!-- end container -->  
+        </section>
+    
+    <footer class="section footer noover">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Subscribe Our Newsletter</h3>
+                                <div class="newsletter-widget">
+                                    <p>You can opt out of our newsletters at any time.<br> See our <a href="http://localhost:3000/#">privacy policy</a>.</p>
+                                    <form class="form-inline" role="search">
+                                        <div class="form-1">
+                                            <input type="text" class="form-control" placeholder="Enter email here..">
+                                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                        </div>
+                                    </form>
+                                    <img src="./Edulogy_files/payments.png" alt="" class="img-responsive">
+                                </div><!-- end newsletter -->
+                            </div><!-- end widget -->
+                        </div><!-- end col -->
+    
+                        <div class="col-lg-2 col-md-2">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Về F8</h3>
+                                <div class="list-widget">   
+                                    <ul>
+                                        <li><a href="https://fullstack.edu.vn/about-us">Giới thiệu</a></li>
+                                        <li><a href="https://fullstack.edu.vn/contact-us">Liên hệ</a></li>
+                                        <li><a href="https://fullstack.edu.vn/terms">Điều khoản</a></li>
+                                        <li><a href="https://fullstack.edu.vn/privacy">Bảo mật</a></li>
+                                        <li><a href="https://fullstack.edu.vn/careers">Cơ hội việc làm</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end widget -->
+                        </div><!-- end col -->
+    
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Popular Tags</h3>
+                               <div class="list-widget">   
+                                    <ul>
+                                        <li><a href="http://localhost:3000/#">Terms of Use</a></li>
+                                        <li><a href="http://localhost:3000/#">Copyrights</a></li>
+                                        <li><a href="http://localhost:3000/#">Create a Ticket</a></li>
+                                        <li><a href="http://localhost:3000/#">Pricing &amp; Plans</a></li>
+                                        <li><a href="http://localhost:3000/#">Carrier</a></li>
+                                        <li><a href="http://localhost:3000/#">Trademark</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end widget -->
+                        </div><!-- end col -->
+    
+                        <div class="col-lg-2 col-md-2">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Support</h3>
+                                <div class="list-widget">   
+                                    <ul>
+                                        <li><a href="http://localhost:3000/#">Terms of Use</a></li>
+                                        <li><a href="http://localhost:3000/#">Copyrights</a></li>
+                                        <li><a href="http://localhost:3000/#">Create a Ticket</a></li>
+                                        <li><a href="http://localhost:3000/#">Pricing &amp; Plans</a></li>
+                                        <li><a href="http://localhost:3000/#">Carrier</a></li>
+                                        <li><a href="http://localhost:3000/#">Trademark</a></li>
+                                    </ul>
+                                </div><!-- end list-widget -->
+                            </div><!-- end widget -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </footer><!-- end footer -->
+    
+            <div class="copyrights">
+                <div class="container">
+                    <div class="clearfix">
+                        <div class="pull-left">
+                            <div class="cop-logo">
+                                <a href="http://localhost:3000/#"><img src="./Edulogy_files/logo.png" alt=""></a>
+                            </div>
+                        </div>
+    
+                        <div class="pull-right">
+                            <div class="footer-links">
+                                <ul class="list-inline">
+                                    <li>Design : <a href="https://html.design/">HTML.Design</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copy -->    </div>
+    
+  <!-- jQuery Files -->
+    <script src="./Edulogy_files/jquery.min.js.tải xuống"></script>
+    <script src="./Edulogy_files/bootstrap.min.js.tải xuống"></script>
+    <script src="./Edulogy_files/carousel.js.tải xuống"></script>
+    <script src="./Edulogy_files/animate.js.tải xuống"></script>
+    <script src="./Edulogy_files/custom.js.tải xuống"></script>
+    <!-- VIDEO BG PLUGINS -->
+    <script src="./Edulogy_files/videobg.js.tải xuống"></script>
+
+<script>
+		function returnCommentSymbol(language = "javascript") {
+			const languageObject = {
+				bat: "@REM",
+				c: "//",
+				csharp: "//",
+				cpp: "//",
+				closure: ";;",
+				coffeescript: "#",
+				dockercompose: "#",
+				css: "/*DELIMITER*/",
+				"cuda-cpp": "//",
+				dart: "//",
+				diff: "#",
+				dockerfile: "#",
+				fsharp: "//",
+				"git-commit": "//",
+				"git-rebase": "#",
+				go: "//",
+				groovy: "//",
+				handlebars: "{{!--DELIMITER--}}",
+				hlsl: "//",
+				html: "<!--DELIMITER-->",
+				ignore: "#",
+				ini: ";",
+				java: "//",
+				javascript: "//",
+				javascriptreact: "//",
+				json: "//",
+				jsonc: "//",
+				julia: "#",
+				latex: "%",
+				less: "//",
+				lua: "--",
+				makefile: "#",
+				markdown: "<!--DELIMITER-->",
+				"objective-c": "//",
+				"objective-cpp": "//",
+				perl: "#",
+				perl6: "#",
+				php: "<!--DELIMITER-->",
+				powershell: "#",
+				properties: ";",
+				jade: "//-",
+				python: "#",
+				r: "#",
+				razor: "<!--DELIMITER-->",
+				restructuredtext: "..",
+				ruby: "#",
+				rust: "//",
+				scss: "//",
+				shaderlab: "//",
+				shellscript: "#",
+				sql: "--",
+				svg: "<!--DELIMITER-->",
+				swift: "//",
+				tex: "%",
+				typescript: "//",
+				typescriptreact: "//",
+				vb: "'",
+				xml: "<!--DELIMITER-->",
+				xsl: "<!--DELIMITER-->",
+				yaml: "#"
+			}
+			return languageObject[language].split("DELIMITER")
+		}
+		var savedChPos = 0
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		pos = {line: 0, ch: 0}
+		var suggestionsStatus = false
+		var docLang = "python"
+		var suggestionDisplayed = false
+		var isReturningSuggestion = false
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				const codeEditor = editor.CodeMirror
+				if(!editor.classList.contains("added-tab-function")){
+					editor.classList.add("added-tab-function")
+					codeEditor.removeKeyMap("Tab")
+					codeEditor.setOption("extraKeys", {Tab: (cm)=>{
+
+						if(returnedSuggestion){
+							acceptTab(returnedSuggestion)
+						}
+						else{
+							cm.execCommand("defaultTab")
+						}
+					}})
+				}
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+
+				if(cursor.ch > 0){
+					savedChPos = cursor.ch
+				}
+
+				const fileLang = doc.getMode().name
+				docLang = fileLang
+				const commentSymbol = returnCommentSymbol(fileLang)
+				if (event.key == "?"){
+					var lastLine = line
+					lastLine = lastLine.slice(0, savedChPos - 1)
+
+					if(lastLine.trim().startsWith(commentSymbol[0])){
+						lastLine += " "+fileLang
+						lastLine = lastLine.split(commentSymbol[0])[1]
+						window.postMessage({source: 'getQuery', payload: { data: lastLine } } )
+						isReturningSuggestion = true
+						displayGrey("\nBlackbox loading...")
+					}
+				}else if(event.key === "Enter" && suggestionsStatus && !isReturningSuggestion){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-10), ch: 0 }, { line: cursor.line, ch: line.length })
+					window.postMessage({source: 'getSuggestion', payload: { data: query, language: docLang } } )
+					displayGrey("Blackbox loading...")
+				}else if(event.key === "ArrowRight" && returnedSuggestion){
+					acceptTab(returnedSuggestion)
+				}else if(event.key === "Enter" && isReturningSuggestion){
+					displayGrey("\nBlackbox loading...")
+				}else if(event.key === "Escape"){
+					displayGrey("")
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		}
+		function acceptSuggestion(text){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		function displayGrey(text){
+			if(!text){
+				document.querySelector(".blackbox-suggestion").remove()
+				return
+			}
+			var el = document.querySelector(".blackbox-suggestion")
+			if(!el){
+				el = document.createElement('span')
+				el.classList.add("blackbox-suggestion")
+				el.style = 'color:grey'
+				el.innerText = text
+			}
+			else{
+				el.innerText = text
+			}
+			
+			var lineIndex = pos.line;
+			editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(el)
+		}
+		function updateSuggestionStatus(s){
+			suggestionDisplayed = s
+			window.postMessage({source: 'updateSuggestionStatus', status: suggestionDisplayed, suggestion: returnedSuggestion})
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			isReturningSuggestion = false
+			const formattedCode = formatCode(event.data.payload.data)
+			returnedSuggestion = formattedCode
+			displayGrey(formattedCode)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestReturn'){
+			returnedSuggestion = event.data.payload.data
+			displayGrey(event.data.payload.data)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestionsStatus'){
+			suggestionsStatus = event.data.payload.enabled
+		}
+		if(event.data.source == 'acceptSuggestion'){
+			
+			acceptSuggestion(event.data.suggestion)
+		}
+		})
+		document.addEventListener("keyup", function(){
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		})
+		function formatCode(data) {
+			if (Array.isArray(data)) {
+				var finalCode = ""
+				var pairs = []
+		
+				const commentSymbol = returnCommentSymbol(docLang)
+				data.forEach((codeArr, idx) => {
+					const code = codeArr[0]
+					var desc = codeArr[1]
+					const descArr = desc.split("\n")
+					var finalDesc = ""
+					descArr.forEach((descLine, idx) => {
+						const whiteSpace = descLine.search(/\S/)
+						if (commentSymbol.length < 2 || idx === 0) {
+							finalDesc += insert(descLine, whiteSpace, commentSymbol[0])
+						}
+						if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+							finalDesc = finalDesc + commentSymbol[1] + "\n"
+						}
+					})
+		
+					finalCode += finalDesc + "\n\n" + code
+					pairs.push(finalCode)
+				})
+				return "\n"+pairs.join("\n")
+			}
+		
+			return "\n"+data
+		}
+		
+		function insert(str, index, value) {
+			return str.substr(0, index) + value + str.substr(index)
+		}
+	</script><div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;" src="./Edulogy_files/saved_resource.html"></iframe></body></html>
