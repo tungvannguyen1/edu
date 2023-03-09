@@ -1,51 +1,47 @@
-const account = require('../models/account')
-const { mutipleMongooseToObject } = require('../../util/mongoose')
-const { mongooseToObject } = require('../../util/mongoose')
-const jwt = require('jsonwebtoken')
-
+const account = require("../models/account");
+const { mutipleMongooseToObject } = require("../../util/mongoose");
+const { mongooseToObject } = require("../../util/mongoose");
+const jwt = require("jsonwebtoken");
 
 class LoginController {
-    //GET
-    loginSite(req, res){
-        res.render('login/login' , {layout: false})
+  //[GET] /login
+  loginSite(req, res) {
+   
+    res.render("login/login", { layout: false });
+  }
+  //[POST] //login
+  login(req, res, next) {
+    var email = req.body.email;
+    var password = req.body.password;
+    //check admin
+    if (email == "admin@admin.com" && password == "admin") {
+      req.session.isLoggedIn = true;
+      return res.redirect("/admin");
     }
-    //POST
-    // signin(req, res){
-    //     console.log(req.body)
-    // }   
-    
-    
-    /// Đăng Kí ok rồi
-    // signin(req,res){
-    //     const accounts = new account(req.body);
-    //     accounts
-    //         .save()
-    //         .then(() => res.send('SAVED!!!!'))
-    //         .catch((error) => {});
-    // }
-    // 
-    login(req,res,next){
-        var username =  req.body.username
-        var password =  req.body.password
-        account.findOne({ 
-            username: username,
-            password: password
+    // not admin then check normal account
+    else {
+      account
+        .findOne({
+          email: email,
+          password: password,
         })
-            .then(data => {
-                if(data){
-                    var token = jwt.sign({
-                        _id: data._id
-                    },'mk')
-                    res.cookie('authToken', token, { httpOnly: true, maxAge: 300000 }); // expires after 5 minutes
-                    res.send('Login successful !! Welcome to Dashboard');
-                }else{
-                    res.json('LOGIN FAIL !!!')
-                }
-            })
-            .catch(next)
-        }
+        .then((data) => {
+          if (data) {
+            var token = jwt.sign(
+              {
+                _id: data._id,
+              },
+              "mk"
+            );
+            res.cookie("authToken", token, { httpOnly: true, maxAge: 300000 }); // expires after 5 minutes
+            res.send("Login successful !! Welcome to Dashboard");
+          } else {
+            res.json("LOGIN FAIL !!!");
+          }
+        })
+        .catch(next);
     }
+  }
+}
 
-
-
-module.exports = new LoginController
+module.exports = new LoginController();

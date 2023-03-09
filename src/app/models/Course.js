@@ -20,4 +20,5 @@ Course.plugin(mongooseDelete, {
     deletedAt: true,
     overrideMethods: 'all',
 });
+
 module.exports = mongoose.model('Course', Course)

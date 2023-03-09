@@ -1,8 +1,8 @@
-const Course = require('../models/Course')
-const { mutipleMongooseToObject } = require('../../util/mongoose')
+const Course = require("../models/Course");
+const { mutipleMongooseToObject } = require("../../util/mongoose");
 class NewsController {
-    news(req, res,next){
-      res.render('news/news')
-    }
+  news(req, res, next) {
+    res.render("news/news");
+  }
 }
-module.exports = new NewsController
+module.exports = new NewsController();
